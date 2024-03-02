@@ -37,6 +37,19 @@
 // console.log("a !== b" , a !== b)
 
 //Logical Operators
-let a = 5;
-let b = 2;
-console.log("cond1 && cond2 = ", a < b && a === 6);
+// let a = 5;
+// let b = 2;
+// console.log("cond1 && cond2 = ", a < b && a === 6);
+
+/* Conditional Statement
+to implement some condition in the code */
+
+let age = 22;
+
+if (age >= 18) {
+    console.log("you can vote");
+}
+
+if (age < 18) {
+    console.log("you CANNOT vote");
+}
