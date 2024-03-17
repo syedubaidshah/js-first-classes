@@ -60,3 +60,8 @@ alert("I am currently reading the book: " + book);
 // 08:
 let name = "Yah! I can write HTML content through Javascript";
 document.write(name);
+
+
+//09
+let lines = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
+alert(lines);
