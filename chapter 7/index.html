@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ch 7 Assignments</title>
+  </head>
+  <body>
+    <!-- Question 1 -->
+    <h3>Enter Your City</h3>
+    <input
+      type="text"
+      placeholder="Enter Your City"
+      name="city"
+      id="usercity"
+      required
+    />
+    <h4 id="usercity_print"></h4>
+    <button id="citycheck">Enter</button>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Question 2  -->
+    <h4>Gender :</h4>
+    <label>
+      <input type="radio" id="gender" name="gender" value="male" />
+      Male
+    </label>
+    <label>
+      <input type="radio" id="gender" name="gender" value="female" />
+      Female
+    </label>
+    <h4 id="usergender"></h4>
+    <button id="gendercheck">Click</button>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Question 3  -->
+    <h4>Enter Your Signal Color</h4>
+    <input type="text" placeholder="Signal Color" id="signal" />
+    <button id="signalcheck">Check</button>
+    <br />
+    <br />
+    <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <th>Signal Color</th>
+        <th>Message</th>
+      </thead>
+      <tr>
+        <td>Red</td>
+        <td id="red-signal"></td>
+      </tr>
+      <tr>
+        <td>Yellow</td>
+        <td id="yellow-signal"></td>
+      </tr>
+      <tr>
+        <td>Green</td>
+        <td id="green-signal"></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <!-- Question 4  -->
+    <h4>Fuel Check</h4>
+    <input type="number" placeholder="Fuel Check" id="fuel" />
+    <h4 id="fuelprint"></h4>
+    <button id="fuelcheck">Check</button>
+    <br />
+    <br />
+    <br />
+
+    <!-- Question 6  -->
+    <h4>Enter Your Marks</h4>
+    <input type="number" placeholder="Physics" id="physics" required /><br />
+    <br />
+    <input type="number" placeholder="Math" id="math" required /><br />
+    <br />
+    <input type="number" placeholder="Computer" id="computer" required /><br />
+    <h4 id="marks_print"></h4>
+    <button id="resultcheck">Click</button>
+    <br />
+    <br />
+    <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <th>Percentage</th>
+        <th>Grade</th>
+        <th>Remarks</th>
+      </thead>
+      <tr>
+        <td id="printpercentage"></td>
+        <td id="gradepercentage"></td>
+        <td id="remarkspercentage"></td>
+      </tr>
+    </table>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
